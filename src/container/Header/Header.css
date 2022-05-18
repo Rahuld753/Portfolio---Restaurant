@@ -1,0 +1,31 @@
+.app__header{
+    background-color: var(--color-black);
+}
+
+.app__header-h1{
+    color: var(--color-golden);
+    font-size: 90px;
+    font-family: var(--font-base);
+    line-height: 117px;
+    letter-spacing: 0.04em;
+}
+
+.app__header-p{
+    margin: 2rem 0;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.app__header-btn{
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    color: var(--color-black);
+    background: var(--color-golden);
+    cursor: pointer;
+}
+
+.app__wrapper_img img{
+    width: 80%;
+}
+

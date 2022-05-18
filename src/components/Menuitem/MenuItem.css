@@ -1,0 +1,30 @@
+.app__menuitem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.app__menuitem-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__menuitem-head h1{
+    flex: 1;
+}
+
+.app__menuitem-head div{
+    width: 90px;
+    height: 1px;
+    background-color: var(--color-golden);
+    margin: 0 1rem;;
+}
+
+.app__menuitem-sub{
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
